@@ -11,7 +11,7 @@ __Sender:__ Run the method `main` from `StockQuoteSender`.
 __Client:__ use this below code in any browser with websockets support. (Tested in Google Chrome Version 32.0.1700.107)
 
 ```javascript
-	var ws = new WebSocket('ws://localhost:8080/websockets/stocks');
+	var ws = new WebSocket('ws://localhost:8000/websockets/stocks');
 	
 	ws.onopen = function(){
 	   console.log('ws open!');
