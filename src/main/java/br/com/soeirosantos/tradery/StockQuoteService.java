@@ -6,9 +6,6 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Scanner;
 
-import javax.websocket.ClientEndpoint;
-
-@ClientEndpoint
 public class StockQuoteService {
 
 	private static final String YAHOO_API_URL = "http://query.yahooapis.com/v1/public/yql?q=%s&env=%s&format=%s";
